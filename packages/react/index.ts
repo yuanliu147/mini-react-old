@@ -1,3 +1,6 @@
-const version = '18.2.0';
+import { jsxDEV } from './src/jsx/ReactJSXElement';
 
-export { version };
+export default {
+	version: '1.0.0',
+	createElement: jsxDEV
+};
